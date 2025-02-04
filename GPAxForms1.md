@@ -36,6 +36,7 @@ namespace WinFormsApp1
             tbCount.Text = calculator.GetCount().ToString();
             tbMax.Text = calculator.GetMaxGPAX().ToString("0.00");
             tbMin.Text = calculator.GetMinGPAX().ToString("0.00");
+            tbInputGPAx.Text = calculator.CalculateAverageGPAX().ToString();
         }
     }
 }
